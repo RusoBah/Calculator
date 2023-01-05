@@ -1,0 +1,56 @@
+body{
+   /*Отображается только область внутри элемента*/
+   overflow: hidden;
+   background: linear-gradient(rgb(73, 73, 169), rgba(136, 93, 65, 0.525)) no-repeat;
+
+}
+.wrapper{
+   width: 95%;
+   height: 95vh;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.calculator{
+   border: 1px solid rgba(23, 55, 77, 0.776);
+  
+   width: 350px;
+   border-radius: 5px;
+   padding: 15px 20px;
+   box-shadow: 0px 5px 10px 1px rgba(100, 42, 42, 0.838);
+}
+.calculator input{
+   height: 40px;
+   text-align: right;
+   direction: ltr;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 40px 5px;
+   background-color: whitesmoke;
+   border-radius: 6px;
+   border: none;
+   outline: none;
+}
+.calculator .btn{
+   width: 24%;
+   /*снимает контур*/
+   outline: none;
+   margin: 2px 0px;
+   padding: 10px;
+   border-radius: 4px;
+   border: none;
+}
+.calculator .btnEqual{
+   width: 99.2%;
+   /*снимает контур*/
+   outline: none;
+   margin: 2px 0px;
+   padding: 10px;
+   border-radius: 4px;
+   border: none;
+   
+}
+.btn:hover, .btnEqual:hover{
+   background-color: #f7b4b4c8;
+}
